@@ -1,0 +1,121 @@
+
+.shadow-text {
+    text-shadow: gray 1px 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: blueviolet;
+}
+
+.border { 
+    border-width: 5px; 
+    border-color: rgb(156, 44, 44); 
+    border-style: solid; 
+}
+
+table, th, td {
+    font-family: Papyrus;  
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+}    
+
+table {
+    float: right;
+    padding-top: 100px;
+}
+
+th {
+    border: 3px solid black;
+    background-color: rgb(82, 80, 80);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td {
+    background-color:grey;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.hov:hover {
+    color: black;
+}  
+
+#background-color {
+    background-color: coral;
+}
+
+#border {
+    border-width: 5px; 
+    border-color: rgb(44, 48, 156); 
+    border-style: solid; 
+}
+
+.background-color {
+    background-color: lightgrey;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 330px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+h1 {
+    font-style: italic;
+    background-color: rgba(255, 0, 0, 0.567);
+    padding-left: 320px;
+}
+
+#image {
+    border-radius: 10px;
+    border-width: 4px;
+    border-style: solid;
+    display: block;
+    margin: auto;
+}
+
+.padding {
+    padding-left: 430px;
+}
+
+input[type=submit] {
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]:focus {
+    background-color: #3CBC8D;
+    color: whitesmoke;
+    width: 35%;
+    text-align: center;
+}
+
+input[type=radio] {
+    cursor: pointer;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 30%;
+}
+
